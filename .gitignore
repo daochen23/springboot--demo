@@ -1,0 +1,31 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+target
+logs
+.gitignore
+.idea/
+logs/
+springboot-actuator/src/test/
+springboot-actuator/target/
+springboot-admin-client/springboot-admin-client.iml
+springboot-admin-client/src/test/
+springboot-admin-client/target/
+
+springboot-exception/src/test/
+springboot-exception/target/
+springboot-helloworld/src/test/
+springboot-helloworld/target/
+
+springboot-logback/springboot-logback.iml
+springboot-logback/src/test/
+springboot-logback/target/
+springboot-properties/src/test/
+springboot-properties/target/
+
