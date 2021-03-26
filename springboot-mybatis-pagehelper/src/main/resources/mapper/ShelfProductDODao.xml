@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mybatis_pagehelper.dao.ShelfProductDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.mybatis_pagehelper.entity.ShelfProductDO">
+        <result column="shelf_name" property="shelfName" />
+        <result column="product_id" property="productId" />
+        <result column="point_name" property="pointName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        shelf_name, product_id, point_name
+    </sql>
+
+</mapper>

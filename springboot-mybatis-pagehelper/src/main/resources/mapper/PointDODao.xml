@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mybatis_pagehelper.dao.PointDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.mybatis_pagehelper.entity.PointDO">
+        <id column="point_id" property="pointId" />
+        <result column="point_name" property="pointName" />
+        <result column="point_type" property="pointType" />
+        <result column="point_status" property="pointStatus" />
+        <result column="rotateCellIds_call" property="rotatecellidsCall" />
+        <result column="rotateCellIds_relese" property="rotatecellidsRelese" />
+        <result column="directiions_call" property="directiionsCall" />
+        <result column="directiions_relese" property="directiionsRelese" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        point_id, point_name, point_type, point_status, rotateCellIds_call, rotateCellIds_relese, directiions_call, directiions_relese
+    </sql>
+
+</mapper>

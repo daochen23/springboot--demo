@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mybatis_pagehelper.dao.InboundLogDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.mybatis_pagehelper.entity.InboundLogDO">
+        <id column="inbound_id" property="inboundId" />
+        <result column="shelf_name" property="shelfName" />
+        <result column="point_name" property="pointName" />
+        <result column="product_id" property="productId" />
+        <result column="bind_time" property="bindTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        inbound_id, shelf_name, point_name, product_id, bind_time
+    </sql>
+
+</mapper>

@@ -16,6 +16,7 @@
         <module>springboot-exception</module>
         <module>springboot-logback</module>
         <module>springboot-logaop</module>
+        <module>springboot-mybatis-pagehelper</module>
     </modules>
 
     <parent>
